@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Notes App 👋</h1>
+<h1 align="center">Welcome to MERN Notes App 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/diegobtancourt" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A Notes App created with MongoDB, ExpressJS, React and NodeJS
+> A Notes App created with MongoDB, ExpressJS, React and NodeJS. This project was created following this [tutorial](https://www.youtube.com/watch?v=wWb0r35yLCk&list=PLo5lAe9kQrwrGPjhhzejCt3JENYf5uDNf)
 
 ## Author
 
