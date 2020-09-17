@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { Link } from 'react-router-dom';
 
 
 export default class CreateNote extends Component {
@@ -45,7 +44,7 @@ export default class CreateNote extends Component {
     };
 
     if (this.state.editing) {
-      const res = await axios.put("http://localhost:4000/api/notes/" + this.state._id, newNote);
+      await axios.put("http://localhost:4000/api/notes/" + this.state._id, newNote);
     } else {
       await axios.post("http://localhost:4000/api/notes", newNote);
     }

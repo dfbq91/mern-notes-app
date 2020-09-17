@@ -1,15 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "description": "A Notes App created with MongoDB, ExpressJS, React and NodeJS",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

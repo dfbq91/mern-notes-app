@@ -8,6 +8,28 @@
 
 > A Notes App created with MongoDB, ExpressJS, React and NodeJS. This project was created following this [tutorial](https://www.youtube.com/watch?v=wWb0r35yLCk&list=PLo5lAe9kQrwrGPjhhzejCt3JENYf5uDNf)
 
+## Install
+
+Make sure you have Mongodb active:
+```
+$ sudo service mongod status
+$ sudo service mongod start
+```
+
+```
+$ cd backend
+$ npm install
+$ npm run dev
+
+$ cd ../frontend
+$ npm install
+$ node npm start
+```
+
+## Usage
+mern-notes-app.gif
+![Gif notes application](https://github.com/dfbq91/mern-notes-app/blob/master/mern-notes-app.gif)
+
 ## Author
 
 👤 **Diego Betancourt**
