@@ -27,7 +27,6 @@ $ node npm start
 ```
 
 ## Usage
-mern-notes-app.gif
 ![Gif notes application](https://github.com/dfbq91/mern-notes-app/blob/master/mern-notes-app.gif)
 
 ## Author
